@@ -2,25 +2,31 @@ main {
     font-family: helvetica, sans-serif;
     text-align: center;
     background-color: #e6f1e6;
+    display: grid;
+    grid-template-rows: 1fr 1.5fr 1.5fr 1fr 50px;
+    align-items: center;
   }
   
-  body { padding: 0; margin: 0 }
+  body { 
+      padding: 0; 
+      margin: 0 
+    }
   
   #navbar {
     position: fixed;
     top: 0;
     text-align: right;
     width: 100%;
-    background: #0E1C36;
+    background-image: url("https://freedesignfile.com/upload/2015/01/White-lace-seamless-pattern-background-vector.jpg");
     font-family: helvetica;
-    color: #8F9491;
+    color: #0E1C36;
     font-size: 20px;
   }
   
   nav a {
     text-decoration: none;
     font-family: helvetica;
-    color: #fff;
+    color: #0E1C36;
     font-size: 20px;
     padding: 5px;
   }
@@ -39,7 +45,7 @@ main {
     top: 0;
     padding-top: 70px;
     padding-bottom: 70px;
-    background-image: url("https://freedesignfile.com/upload/2015/01/White-lace-seamless-pattern-background-vector.jpg");
+    background-color: #cce5ed;
     text-align: center;
   }
   
@@ -58,20 +64,18 @@ main {
     color: #5C6F68;
     
   }
-  
-  #projects {
-    padding-top: 20px;
-    padding-bottom: 100px;
+
+  #project-grid {
+    padding: 8em;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: auto;
+    grid-gap: 30px;
   }
   
   .project-title {
-    display: inline-block;
-    margin-right: 30px;
-    margin-left: 30px;
     border: 1px solid #5C6F68;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding: 20px 20px 20px 20px;
     text-decoration: none;
     color: #8F9491;
   }
@@ -96,24 +100,16 @@ main {
     color: #5C6F68;
   }
 
+  #about {
+    padding: 8em;
+  }
+
   p.about-me {
       text-align: justify;
   }
   
-  #about {
-    background-color: #cce5ed;
-    padding: 20px 130px 80px 130px;
-    display: inline-block;
-  }
-  
-  #contact {
-    padding-bottom: 50px;
-    padding-top: 20px;
-  }
-  
   #footer {
-    height: 50px;
-    background-color: #0E1C36;
+    background-image: url("https://freedesignfile.com/upload/2015/01/White-lace-seamless-pattern-background-vector.jpg");
   }
   
   a#profile-link {
