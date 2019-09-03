@@ -3,72 +3,68 @@
   src: url('Spinwerad.ttf');
 }
 
-main {
+body { 
+  padding: 0; 
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  text-align: right;
+  width: 100%;
+  background-color: #cce5ed;
+  font-family: helvetica;
+  color: #0E1C36;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: helvetica;
+  color: #0E1C36;
+  font-size: 20px;
+  padding: 5px;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+}
+
+nav a:hover {
+  color: #5C6F68;
+}
+
+#main-doc {
     font-family: helvetica, sans-serif;
     text-align: center;
     background-color: #e6f1e6;
     display: grid;
     grid-template-rows: 1fr 1.5fr 1.5fr 1fr 50px;
+    width: 100%;
     align-items: center;
   }
   
-  body { 
-      padding: 0; 
-      margin: 0 
-    }
-  
-  #navbar {
-    position: fixed;
-    top: 0;
-    text-align: right;
-    width: 100%;
-    background-color: #cce5ed;
-    font-family: helvetica;
-    color: #0E1C36;
-    font-size: 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    font-family: helvetica;
-    color: #0E1C36;
-    font-size: 20px;
-    padding: 5px;
-  }
-  
-  nav li {
-    display: inline-block;
-    text-align: center;
-    list-style: none;
-  }
-  
-  nav a:hover {
-    color: #5C6F68;
-  }
-  
-  #welcome-section {
+  #intro {
     top: 0;
     padding-bottom: 70px;
+    padding-right: 70px;
     background-color: #cce5ed;
-    text-align: center;
+    text-align: end;
   }
-
-#inner-contents {
-    background-color: #f1f1f1;
-    padding: 8em;
-}
   
   h1 {
     font-family: spinwerad;
     font-size: 120px;
     color: #5C6F68;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   
   h2 {
     font-family: Raleway;
     font-size: 50px;
-    display: inline-block;
     padding: 3px;
     color: #5C6F68;
     
@@ -84,7 +80,7 @@ main {
   
   .project-title {
     border: 1px solid #5C6F68;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px;
     text-decoration: none;
     color: #8F9491;
   }
@@ -98,11 +94,7 @@ main {
   #project-pic {
     width: 200px;
   }
-  
-  a p {
-    margin-bottom: 30px;
-  }
-  
+
   h3 {
     font-family: Raleway;
     font-size: 70px;
@@ -118,7 +110,8 @@ main {
   }
   
   #footer {
-    background-image: url("https://freedesignfile.com/upload/2015/01/White-lace-seamless-pattern-background-vector.jpg");
+    height: 50px;
+    background-color: #cce5ed;
   }
   
   a#profile-link {
