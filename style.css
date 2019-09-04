@@ -31,7 +31,7 @@ body {
 nav a {
   text-decoration: none;
   font-family: helvetica;
-  color: #A2EEF0;
+  color: #BBF5F7;
   font-size: 20px;
   padding: 5px;
 }
@@ -58,22 +58,24 @@ h1 {
   font-family: spinwerad;
   font-size: 120px;
   color: #fff;
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 #inner-container {
-  margin-left: 20vmin;
-  margin-right: 20vmin;
-  padding-left: 20vmin;
-  padding-right: 20vmin;
+  margin-left: 25vmin;
+  margin-right: 25vmin;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
   background-color: #f1f1f1;
 }
   
 h2 {
   font-family: Raleway;
   font-size: 50px;
-  padding: 3px;
   color: #fff;
+  margin-top: 0;
+  padding-top: 0;
   }
 
 #projects {
