@@ -8,6 +8,17 @@ body {
   margin: 0;
 }
 
+#container {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+  background-color: #e6f1e6;
+  display: grid;
+  grid-template-rows: auto 1fr 1.5fr 1.5fr 1fr 50px;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
 #navbar {
   position: fixed;
   top: 0;
@@ -36,37 +47,27 @@ nav li {
 nav a:hover {
   color: #5C6F68;
 }
-
-#main-doc {
-    font-family: helvetica, sans-serif;
-    text-align: center;
-    background-color: #e6f1e6;
-    display: grid;
-    grid-template-rows: 1fr 1.5fr 1.5fr 1fr 50px;
-    width: 100%;
-    align-items: center;
+  
+#intro {
+  top: 0;
+  padding-bottom: 70px;
+  padding-right: 70px;
+  background-color: #cce5ed;
+  text-align: end;
   }
   
-  #intro {
-    top: 0;
-    padding-bottom: 70px;
-    padding-right: 70px;
-    background-color: #cce5ed;
-    text-align: end;
-  }
+h1 {
+  font-family: spinwerad;
+  font-size: 120px;
+  color: #5C6F68;
+  margin-bottom: 0px;
+}
   
-  h1 {
-    font-family: spinwerad;
-    font-size: 120px;
-    color: #5C6F68;
-    margin-bottom: 0px;
-  }
-  
-  h2 {
-    font-family: Raleway;
-    font-size: 50px;
-    padding: 3px;
-    color: #5C6F68;
+h2 {
+  font-family: Raleway;
+  font-size: 50px;
+  padding: 3px;
+  color: #5C6F68;
     
   }
 
