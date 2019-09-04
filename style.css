@@ -14,9 +14,7 @@ body {
   width: 100%;
   background-color: #e6f1e6;
   display: grid;
-  grid-template-rows: auto 1fr 1.5fr 1.5fr 1fr 50px;
-  grid-template-columns: 1fr;
-  align-items: center;
+  grid-template-rows: repeat(5, auto);
 }
 
 #navbar {
@@ -62,65 +60,86 @@ h1 {
   color: #5C6F68;
   margin-bottom: 0px;
 }
+
+#inner-container {
+  padding: 10vmin;
+}
   
 h2 {
   font-family: Raleway;
   font-size: 50px;
   padding: 3px;
   color: #5C6F68;
-    
   }
 
-  #project-grid {
-    padding: 8em;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: auto;
-    grid-gap: 30px;
-  }
-  
-  .project-title {
-    border: 1px solid #5C6F68;
-    padding: 20px 20px;
-    text-decoration: none;
-    color: #8F9491;
-  }
-  
-  .project-title:hover {
-    color: #0E1C36;
-    background-color: #fff;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
-  }
-  
-  #project-pic {
-    width: 200px;
-  }
+#projects {
+  padding: 30px;
+}
 
-  h3 {
-    font-family: Raleway;
-    font-size: 70px;
-    color: #5C6F68;
-  }
+#project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 30px;
+}
+  
+.project-title {
+  border: 1px solid #5C6F68;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: #8F9491;
+}
+  
+.project-title:hover {
+  color: #0E1C36;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+  
+#project-pic {
+  width: 200px;
+}
 
-  #about {
-    padding: 8em;
-  }
+h3 {
+  font-family: Raleway;
+  font-size: 70px;
+  color: #5C6F68;
+  text-align: left;
+}
 
-  p.about-me {
-      text-align: justify;
-  }
+#about {
+  padding: 30px;
+}
+
+#about-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 30px;
+}
+
+#about-selfie {
+  align-self: center;
+}
+
+p.about-me {
+  text-align: justify;
+}
   
-  #footer {
-    height: 50px;
-    background-color: #cce5ed;
-  }
+a#profile-link {
+  text-decoration: none;
+  font-family: helvetica;
+  color: #8F9491;
+}
   
-  a#profile-link {
-    text-decoration: none;
-    font-family: helvetica;
-    color: #8F9491;
-  }
-  
-  a#profile-link:hover {
-    color: #0E1C36
-  }
+a#profile-link:hover {
+  color: #0E1C36
+}
+
+#contact {
+  padding-bottom: 50px;
+}
+
+#footer {
+  height: 50px;
+  background-color: #cce5ed;
+}
