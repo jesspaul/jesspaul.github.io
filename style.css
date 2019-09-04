@@ -1,6 +1,6 @@
 @font-face {
   font-family: spinwerad; 
-  src: url('Spinwerad.ttf');
+  src: url('spinwerad.ttf');
 }
 
 body { 
@@ -12,7 +12,7 @@ body {
   font-family: helvetica, sans-serif;
   text-align: center;
   width: 100%;
-  background-color: #e6f1e6;
+  background-color: #DDE8DD;
   display: grid;
   grid-template-rows: repeat(5, auto);
 }
@@ -22,16 +22,16 @@ body {
   top: 0;
   text-align: right;
   width: 100%;
-  background-color: #cce5ed;
+  background-color: #66C5C8;
   font-family: helvetica;
-  color: #0E1C36;
+  color: #fff;
   font-size: 20px;
 }
 
 nav a {
   text-decoration: none;
   font-family: helvetica;
-  color: #0E1C36;
+  color: #A2EEF0;
   font-size: 20px;
   padding: 5px;
 }
@@ -43,33 +43,37 @@ nav li {
 }
 
 nav a:hover {
-  color: #5C6F68;
+  color: #fff;
 }
   
 #intro {
   top: 0;
   padding-bottom: 70px;
   padding-right: 70px;
-  background-color: #cce5ed;
+  background-color: #66C5C8;
   text-align: end;
   }
   
 h1 {
   font-family: spinwerad;
   font-size: 120px;
-  color: #5C6F68;
+  color: #fff;
   margin-bottom: 0px;
 }
 
 #inner-container {
-  padding: 10vmin;
+  margin-left: 20vmin;
+  margin-right: 20vmin;
+  padding-left: 20vmin;
+  padding-right: 20vmin;
+  background-color: #f1f1f1;
 }
   
 h2 {
   font-family: Raleway;
   font-size: 50px;
   padding: 3px;
-  color: #5C6F68;
+  color: #fff;
   }
 
 #projects {
@@ -128,7 +132,7 @@ p.about-me {
 a#profile-link {
   text-decoration: none;
   font-family: helvetica;
-  color: #8F9491;
+  color: #83B283;
 }
   
 a#profile-link:hover {
@@ -141,5 +145,5 @@ a#profile-link:hover {
 
 #footer {
   height: 50px;
-  background-color: #cce5ed;
+  background-color: #66C5C8;
 }
