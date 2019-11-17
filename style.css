@@ -3,7 +3,11 @@
   src: url('spinwerad.ttf');
 }
 
-body { 
+html { 
+  font-size: 16px;
+}
+
+body {
   padding: 0; 
   margin: 0;
 }
@@ -25,15 +29,15 @@ main {
   background-color: #66C5C8;
   font-family: helvetica;
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 nav a {
   text-decoration: none;
   font-family: helvetica;
-  color: #f1f1f1;
-  font-size: 20px;
-  padding: 5px;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.5rem;
 }
 
 nav li {
@@ -43,36 +47,37 @@ nav li {
 }
 
 nav a:hover {
-  color: #fff;
+  color: #5C6F68;
 }
   
 header {
   top: 0;
-  padding-bottom: 70px;
-  padding-right: 70px;
+  padding-bottom: 4.375rem;
+  padding-right: 4.375rem;
   background-color: #66C5C8;
   text-align: end;
   }
   
 h1 {
   font-family: spinwerad;
-  font-size: 120px;
+  font-size: 7.5rem;
   color: #fff;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
 #inner-container {
-  margin-left: 25vmin;
-  margin-right: 25vmin;
-  padding-left: 10vmin;
-  padding-right: 10vmin;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
   background-color: #f1f1f1;
 }
   
 h2 {
   font-family: Raleway;
-  font-size: 50px;
+  font-size: 3.125rem;
   color: #fff;
   margin-top: 0;
   padding-top: 0;
@@ -91,9 +96,10 @@ h2 {
   
 .project-title {
   border: 1px solid #5C6F68;
-  padding: 20px 20px;
+  padding: 1.125rem 1.125rem;
   text-decoration: none;
   color: #8F9491;
+  font-size: 1.25rem;
 }
   
 .project-title:hover {
@@ -103,31 +109,42 @@ h2 {
 }
   
 #project-pic {
-  width: 200px;
+  width: 250px;
+  height: auto;
 }
 
 h3 {
   font-family: Raleway;
-  font-size: 70px;
+  font-size: 4.375rem;
   color: #5C6F68;
   text-align: left;
 }
 
 #about {
-  padding: 30px;
+  margin: auto;
 }
 
-#about-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-column-gap: 30px;
+#about-text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30rem;
+  margin-right: 2rem;
 }
 
 #about-selfie {
+  display: inline-block;
+  vertical-align: middle;
   align-self: center;
+  width: 15rem;
 }
 
+/* #selfie {
+  max-width: 100%;
+  height: auto;
+} */
+
 p.about-me {
+  display: inline-block;
   text-align: justify;
 }
   
@@ -148,4 +165,10 @@ a#profile-link:hover {
 footer {
   height: 50px;
   background-color: #66C5C8;
+}
+
+@media only screen and (max-width: 500px) {
+  #about-selfie {
+
+  }
 }
