@@ -137,6 +137,11 @@ h3 {
   width: 15rem;
 }
 
+#selfie {
+  width: 100%;
+  height: auto;
+}
+
 p.about-me {
   display: inline-block;
   text-align: justify;
