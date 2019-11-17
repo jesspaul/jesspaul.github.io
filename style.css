@@ -168,20 +168,8 @@ footer {
   background-color: #66C5C8;
 }
 
-/* @media only screen and (max-width: 480px) {
-  #about-text {
-    display: block;
-    width: 100%;
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 20px;
   }
-  
-  #about-selfie {
-    display: block;
-  }
-
-  #project-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 30px;
-}
-} */
+} 
