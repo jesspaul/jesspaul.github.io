@@ -68,7 +68,7 @@ h1 {
 #inner-container {
   padding-left: 5rem;
   padding-right: 5rem;
-  width: 80%;
+  width: 70%;
   max-width: 800px;
   margin: auto;
   background-color: #f1f1f1;
@@ -98,7 +98,7 @@ h2 {
   padding: 1.125rem 1.125rem;
   flex-basis: 300px;
   padding: 1rem;
-  margin: 1rem;
+  margin: 2rem 1rem;
 }
   
 .project-title {
@@ -123,6 +123,7 @@ h3 {
   font-size: 4.375rem;
   color: #5C6F68;
   text-align: left;
+  margin-bottom: 3rem;
 }
 
 #about-flex {
