@@ -161,3 +161,21 @@ footer {
   height: 4rem;
   background-color: #66C5C8;
 }
+
+@media only screen and (max-width: 500px) {
+  #about-text {
+    display: block;
+    width: 100%;
+  }
+  
+  #about-selfie {
+    display: block;
+  }
+
+  #project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+}
+}
