@@ -96,7 +96,7 @@ h2 {
 .project {
   border: 1px solid #5C6F68;
   padding: 1.125rem 1.125rem;
-  flex-basis: 300px;
+  flex: 1 300px;
   padding: 1rem;
   margin: 2rem 1rem;
 }
@@ -114,7 +114,7 @@ h2 {
 }
   
 #project-pic {
-  width: 250px;
+  width: 80%;
   height: auto;
 }
 
