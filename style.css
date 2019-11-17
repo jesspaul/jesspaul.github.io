@@ -36,7 +36,6 @@ nav a {
   text-decoration: none;
   font-family: helvetica;
   color: #fff;
-  font-size: 1.25rem;
   padding: 0.5rem;
 }
 
@@ -138,37 +137,22 @@ h3 {
   width: 15rem;
 }
 
-/* #selfie {
-  max-width: 100%;
-  height: auto;
-} */
-
 p.about-me {
   display: inline-block;
   text-align: justify;
-}
-  
-a#profile-link {
-  text-decoration: none;
-  font-family: helvetica;
-  color: #83B283;
-}
-  
-a#profile-link:hover {
-  color: #0E1C36
 }
 
 #contact {
   padding-bottom: 50px;
 }
-
-footer {
-  height: 50px;
-  background-color: #66C5C8;
+  
+.profile-link img {
+  height: 5rem;
+  margin: 1rem 2.5rem;
 }
 
-@media only screen and (max-width: 500px) {
-  #about-selfie {
 
-  }
+footer {
+  height: 4rem;
+  background-color: #66C5C8;
 }
