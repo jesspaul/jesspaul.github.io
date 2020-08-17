@@ -1,86 +1,55 @@
-@font-face {
-  font-family: spinwerad; 
-  src: url('spinwerad.ttf');
-}
-
-html { 
-  font-size: 16px;
-}
-
 body {
-  padding: 0; 
-  margin: 0;
+  background-color: #E6FAFF;
+  margin: 0 auto;
+  text-align: justify;
+  color: #095c6e;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
 }
 
-main {
-  font-family: helvetica, sans-serif;
-  text-align: center;
-  width: 100%;
-  background-color: #DDE8DD;
-  display: grid;
-  grid-template-rows: repeat(5, auto);
-}
-
-#navbar {
-  position: fixed;
-  top: 0;
+nav {
+  top: 0px;
+  padding: 10px;
   text-align: right;
   width: 100%;
-  background-color: #66C5C8;
-  font-family: helvetica;
-  color: #fff;
-  font-size: 1.25rem;
+  position: fixed;
+  font-size: 20px;
+  background-color: #1C4469;
 }
 
 nav a {
+  padding-right: 25px;
   text-decoration: none;
-  font-family: helvetica;
-  color: #fff;
-  padding: 0.5rem;
+  color: white;
+  font-family: 'Unica One', sans-serif;
 }
-
-nav li {
-  display: inline-block;
-  text-align: center;
-  list-style: none;
-}
-
-nav a:hover {
-  color: #5C6F68;
-}
-  
-header {
-  top: 0;
-  padding-bottom: 4.375rem;
-  padding-right: 4.375rem;
-  background-color: #66C5C8;
-  text-align: end;
-  }
   
 h1 {
-  font-family: spinwerad;
-  font-size: 6.5rem;
-  color: #fff;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-#inner-container {
-  padding-left: 5rem;
-  padding-right: 5rem;
-  width: 70%;
-  max-width: 800px;
-  margin: auto;
-  background-color: #f1f1f1;
+  text-align: center;
+  font-size: 80px;
+  margin: 90px auto 10px auto;
+  font-family: 'Bungee Shade', cursive;
+  letter-spacing: 4px;
 }
   
 h2 {
-  font-family: Raleway;
-  font-size: 3.125rem;
-  color: #fff;
-  margin-top: 0;
-  padding-top: 0;
+  text-align: center;
+  font-size: 36px;
+  margin: 0 auto 40px auto;
+  font-family: 'Unica One', Helvetica, sans-serif;
   }
+
+#selfie {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 175px;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto 80px auto;
+}
 
 #projects {
   padding: 30px;
@@ -91,86 +60,70 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .project {
-  border: 1px solid #5C6F68;
-  padding: 1.125rem 1.125rem;
+  border: 1px solid #1C4469;
+  padding: 10px 10px;
   flex: 1 300px;
-  padding: 1rem;
-  margin: 2rem 1rem;
+  margin: 20px 10px;
 }
   
 .project-title {
   text-decoration: none;
-  color: #8F9491;
-  font-size: 1.25rem;
+  color: #377d8d;
+  font-size: 20px;
 }
   
 .project:hover {
-  color: #0E1C36;
-  background-color: #fff;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+  background-color: #1c44692c;
+  color: #fff;
 }
   
 #project-pic {
-  width: 80%;
-  height: auto;
+  height: 140px;
+  width: 300px;
 }
 
 h3 {
-  font-family: Raleway;
-  font-size: 4.375rem;
-  color: #5C6F68;
-  text-align: left;
-  margin-bottom: 3rem;
-}
-
-#about-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-#about-text {
-  flex: 2 1 400px;
-  margin: 0 1rem;
-}
-
-#about-selfie {
-  flex: 1 2 200px;
-  margin: 0 1rem;
-  max-width: 400px;
-}
-
-#selfie {
-  width: 100%;
-  height: auto;
-}
-
-p.about-me {
-  display: inline-block;
-  text-align: justify;
+  font-size: 30px;
+  font-family: 'Unica One', Helvetica, sans-serif;
+  background: linear-gradient(to right, rgba(28, 68, 105, 1), rgba(0, 0, 0, 0));
+  color: white;
+  padding: 5px 0 5px 10px;
 }
 
 #contact {
   padding-bottom: 50px;
 }
+
+#socials {
+  text-align: center;
+}
   
 .profile-link img {
-  height: 5rem;
-  margin: 1rem 2.5rem;
+  height: 70px;
+  margin: 0 10px 0 10px;
 }
 
-
-footer {
-  height: 4rem;
-  background-color: #66C5C8;
-}
-
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 20px;
+@media (max-width: 500px) {
+  h1 {
+      font-size: 40px;
+      margin-top: 50px;
   }
-} 
+
+  h2 {
+      font-size: 25px;
+      margin-bottom: 10px;
+  }
+
+  #selfie {
+      margin-bottom: 10px;
+  }
+
+  main {
+      width: 90vw;
+      margin-bottom: 40px;
+  }
+}
