@@ -3,9 +3,21 @@
 
 <head>
   <title>Jessica Paul | Web Developer</title>
+
+  <!-- CSS stylesheet -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- linked fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<!-- JS file -->
+<script defer src="./js/script.js"></script>
+
 </head>
 
 <nav id="navbar">
@@ -18,7 +30,7 @@
 
 <header id='welcome-section'>
   <h1>JESSICA PAUL</h1>
-  <h2>Aspiring Web Developer Based in Athens, GA</h2>
+  <h2>Full-Stack Developer Based in Athens, GA</h2>
   <img src="./css/img/selfie.JPG" id="selfie">
 </header>
 
@@ -30,42 +42,71 @@
     
     <div id='project-grid'>
       <div class='project'>
-        <a href="https://nifty-cray-4d1cea.netlify.app/" id="acnh-guide" class="project-title" target="_blank">
-          <p>Animal Crossing Guide</p> <img src="./css/img/acnh-app.png" id="project-pic">
+        <a href="#acnh-app" rel="modal:open" class="project-title">
+          <p>Animal Crossing Guide</p>
+          <img src="./css/img/acnh-app.png" class="project-pic">
         </a>
       </div>
-
-      <div class='project'>
-        <a href="https://thirsty-bartik-47f936.netlify.app/" id="super-tic-tac-toe" class="project-title" target="_blank">
-          <p>Super Tic Tac Toe</p><img src="./css/img/super-tic-tac-toe.png" id="project-pic">
-        </a>
+      <div class="modal" id="acnh-app">
+        <p>Animal Crossing Modal</p>
+        <a href="https://nifty-cray-4d1cea.netlify.app/" target="_blank">Live Site</a>
       </div>
       
       <div class='project'>
-        <a href="https://dreamy-mclean-059152.netlify.app/" id="weather-app" class="project-title" target="_blank">
-          <p>Current Weather App</p> <img src="./css/img/weather-app.png" id="project-pic">
+        <a href="#super-tic-tac-toe" rel="modal:open" class="project-title">
+          <p>Super Tic Tac Toe</p>
+          <img src="./css/img/super-tic-tac-toe.png" class="project-pic">
         </a>
+      </div>
+      <div class="modal" id="super-tic-tac-toe">
+        <p>STTT Modal</p>
+        <a href="https://thirsty-bartik-47f936.netlify.app/" target="_blank">Live Site</a>
+      </div>
+        
+      <div class='project'>
+        <a href="#current-weather" rel="modal:open" class="project-title">
+          <p>Current Weather App</p>
+          <img src="./css/img/weather-app.png" class="project-pic">
+        </a>
+      </div>
+      <div class="modal" id="current-weather">
+        <p>weather Modal</p>
+        <a href="https://dreamy-mclean-059152.netlify.app/" target="_blank">Live Site</a>
+      </div>
+      
+      <div class='project'>
+        <a href="#matching-game" rel="modal:open" class="project-title">
+          <p>Matching Game</p>
+          <img src="./css/img/matching-game.png" class="project-pic">
+        </a>
+      </div>
+      <div class="modal" id="matching-game">
+        <p>matching Modal</p>
+        <a href="https://pedantic-yalow-75a552.netlify.app/" target="_blank">Live Site</a>
+      </div>
+      
+      <div class='project'>
+        <a href="#rock-paper-scissors" rel="modal:open" class="project-title">
+          <p>Rock, Paper, Scissors</p>
+          <img src="./css/img/rock-paper-scissors.png" class="project-pic">
+        </a>
+      </div>
+      <div class="modal" id="rock-paper-scissors">
+        <p>rps Modal</p>
+        <a href="https://dreamy-bardeen-a58da8.netlify.app/" target="_blank">Live Site</a>
+      </div>
+      
+      <div class='project'>
+        <a href="#yahtzee-dice" rel="modal:open" class="project-title">
+          <p>Yahtzee Dice Roller</p>
+          <img src="./css/img/yahtzee-dice-roller.png" class="project-pic">
+        </a>
+      </div>
+      <div class="modal" id="yahtzee-dice">
+        <p>yahtzee dice Modal</p>
+        <a href="https://codepen.io/jesspaul/full/VwvzmeX" target="_blank">Live Site</a>
       </div>
 
-      <div class='project'>
-        <a href="https://pedantic-yalow-75a552.netlify.app/" id="matching-game" class="project-title" target="_blank">
-          <p>Matching Game</p><img src="./css/img/matching-game.png" id="project-pic">
-        </a>
-      </div>
-
-      <div class='project'>
-        <a href="https://dreamy-bardeen-a58da8.netlify.app/" id="rock-paper-scissors" class="project-title"
-          target="_blank">
-          <p>Rock, Paper, Scissors</p> <img src="./css/img/rock-paper-scissors.png" id="project-pic">
-        </a>
-      </div>
-
-      <div class='project'>
-        <a href="https://codepen.io/jesspaul/full/VwvzmeX" id="yahtzee-dice-roller" class="project-title"
-          target="_blank">
-          <p> Yahtzee Dice Roller</p><img src="./css/img/yahtzee-dice-roller.png" id="project-pic">
-        </a>
-      </div>
     </div>
   </div>
 
