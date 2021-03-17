@@ -51,11 +51,9 @@ main {
   margin: 0 auto 80px auto;
 }
 
-#projects {
-  padding: 30px;
-}
-
 #project-grid {
+  padding-right: 30px;
+  padding-left: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
