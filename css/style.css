@@ -8,17 +8,17 @@ body {
 }
 
 nav {
-  top: 0px;
-  padding: 10px;
+  top: 0;
+  padding: .8rem;
   text-align: right;
   width: 100%;
   position: fixed;
-  font-size: 20px;
+  font-size: 1.2rem;
   background-color: #1C4469;
 }
 
 nav a {
-  padding-right: 25px;
+  padding-right: 2rem;
   text-decoration: none;
   color: white;
   font-family: 'Unica One', sans-serif;
@@ -26,34 +26,33 @@ nav a {
   
 h1 {
   text-align: center;
-  font-size: 80px;
-  margin: 90px auto 10px auto;
+  font-size: 6rem;
+  margin: 7rem auto .8rem auto;
   font-family: 'Bungee Shade', cursive;
-  letter-spacing: 4px;
+  letter-spacing: .3rem;
 }
   
 h2 {
   text-align: center;
-  font-size: 36px;
-  margin: 0 auto 40px auto;
+  font-size: 2.2rem;
+  margin: 0 auto 3rem auto;
   font-family: 'Unica One', Helvetica, sans-serif;
   }
 
 #selfie {
   display: block;
   margin: 0 auto;
-  width: 300px;
-  border-radius: 175px;
+  width: 30%;
+  max-width: 400px;
+  border-radius: 50%;
 }
 
 main {
   width: 60%;
-  margin: 0 auto 80px auto;
+  margin: 0 auto 5vh auto;
 }
 
 #project-grid {
-  padding-right: 30px;
-  padding-left: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,15 +62,14 @@ main {
 
 .project {
   border: 1px solid #1C4469;
-  padding: 10px 10px;
-  flex: 1 300px;
-  margin: 20px 10px;
+  padding: 1rem 1.5rem;
+  margin: 1.2rem .8rem;
 }
   
 .project-title {
   text-decoration: none;
   color: #377d8d;
-  font-size: 20px;
+  font-size: 1.4rem;
 }
   
 .project:hover {
@@ -80,14 +78,14 @@ main {
 }
   
 .project-pic {
-  height: 140px;
-  width: 300px;
+  height: 10vw;
+  width: 20vw;
 }
 
 .modal-title {
   font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 5px;
+  font-size: 1.4rem;
+  margin-bottom: .3rem;
 }
 
 .modal p:nth-of-type(2) {
@@ -95,11 +93,11 @@ main {
 }
 
 .modal a {
-  margin-right: 20px;
+  margin-right: 1rem;
 }
 
 .modal p:last-of-type {
-  margin-bottom: 5px;
+  margin-bottom: .3rem;
 }
 
 .modal ul {
@@ -107,15 +105,11 @@ main {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 2rem;
   font-family: 'Unica One', Helvetica, sans-serif;
   background: linear-gradient(to right, rgba(28, 68, 105, 1), rgba(0, 0, 0, 0));
   color: white;
-  padding: 5px 0 5px 10px;
-}
-
-#contact {
-  padding-bottom: 50px;
+  padding: .3rem 0 .3rem .8rem;
 }
 
 #socials {
@@ -136,21 +130,25 @@ h3 {
 
 @media (max-width: 500px) {
   h1 {
-      font-size: 40px;
-      margin-top: 50px;
+    font-size: 2.5rem;
+    margin-top: 3.4rem;
   }
 
   h2 {
-      font-size: 25px;
-      margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   #selfie {
-      margin-bottom: 10px;
+    width: 40vw
   }
 
   main {
       width: 90vw;
-      margin-bottom: 40px;
+  }
+
+  .project-pic {
+    width: 50vw;
+    height: 25vw;
   }
 }
